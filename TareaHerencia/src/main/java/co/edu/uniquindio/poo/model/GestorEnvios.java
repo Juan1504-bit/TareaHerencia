@@ -23,7 +23,7 @@ public class GestorEnvios {
         return total;
     }
 
-    
+
     public double calcularTotalPorTipo(TipoEnvio tipo) {
         double total = 0;
         for (Envio e : envios) {

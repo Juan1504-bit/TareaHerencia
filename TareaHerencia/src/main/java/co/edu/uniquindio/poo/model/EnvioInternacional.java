@@ -2,7 +2,7 @@ package co.edu.uniquindio.poo.model;
 
 
 public class EnvioInternacional extends Envio {
-    private String paisDestino;
+    private final String paisDestino;
     private boolean seguro;
 
     public EnvioInternacional(String codigo, String destinatario, double pesoKg,

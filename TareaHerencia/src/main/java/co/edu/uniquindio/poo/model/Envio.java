@@ -2,9 +2,9 @@ package co.edu.uniquindio.poo.model;
 
 
 public abstract class Envio {
-    private String codigo;
-    private String destinatario;
-    private double pesoKg;
+    private final String codigo;
+    private final String destinatario;
+    private final double pesoKg;
 
     public Envio(String codigo, String destinatario, double pesoKg) {
         this.codigo = codigo;

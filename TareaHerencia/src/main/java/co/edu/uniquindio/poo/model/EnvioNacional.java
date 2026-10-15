@@ -2,7 +2,7 @@ package co.edu.uniquindio.poo.model;
 
 
 public class EnvioNacional extends Envio {
-    private String ciudadDestino;
+    private final String ciudadDestino;
     private boolean domicilio;
 
     public EnvioNacional(String codigo, String destinatario, double pesoKg,
